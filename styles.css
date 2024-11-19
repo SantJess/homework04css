@@ -1,0 +1,78 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff67f;
+    color: #333;
+    margin: 20px;
+  }
+  img {
+    width: 200px;
+  }
+  #títulos {
+    width: 60vw;
+    margin: auto;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #cards-container {
+    width: 80vw;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 5px inset rgb(0, 79, 226);
+    border-radius: 15px;
+    padding: 2em 2em 2em 2em;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .cards{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 1em 1em 1em 1em;
+    border-radius: 10%;
+    transition: 1s;
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.cards:hover{
+    background-color: rgb(167, 230, 172);
+}
+nav{
+    border: 2px solid black;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer{
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+li:nth-child(2n) {
+    font-weight: bold;
+}
+li:nth-child(odd) {
+  font-style: italic;
+}
+ol::before {
+  content: "▷ ";
+}
+h2::before {
+  content: "🌟";
+}
+h2 {
+  color: darkred;
+  font-style: oblique;
+}
+#logo {
+  width: 100px;
+}
+.register {
+  display: flex;
+  justify-content: flex-end;
+}

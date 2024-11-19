@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Register</title>
+        <link rel="stylesheet" type="text/css" href="register-styles.css" />
+    </head>
+    <body>
+        
+        <nav>
+            <div>
+                <a href="Homework 04 CSS.html">
+                    <img src="sem fundo png-clipart-avatar-element-emblem-aang-korra-azula-appa-katara-elements-angle-face-thumbnail-removebg-preview.png" id="logo" name="logo" class="test"/>
+                </a>
+            </div>
+        </nav>
+
+        <header>
+            <h1>Personal data</h1>
+        </header>
+        <main>
+            <form>
+                <div class="column">
+                    Name: <input type="text" required placeholder="My Name">
+                    Surname: <input type="text" required placeholder="My Surname">
+                    Create a login: <input type="text" required placeholder="MyLogin">
+                    Create a password: <input type="password" required placeholder="MyPassword">
+                    Select genre: <select name="genre">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="non-binary">Non-binary</option>
+                    </select>
+                    Age: <input type="number" name="age" min="18" max="100" placeholder="18+" required/>
+                </div>
+                <div class="column">
+                    <button>Button enabled</button>
+                    <button disabled>Button disabled</button>
+                    <input type="text" value="Read-only" readonly/>
+                </div>
+                <div>
+                    <textarea name="Comments">Comments</textarea>
+                </div>
+            </form>
+        </main>
+        <footer>
+            
+        </footer>
+    </body>
+</html>

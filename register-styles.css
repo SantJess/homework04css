@@ -1,0 +1,61 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff67f;
+    color: #333;
+    margin: 20px;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  input {
+    width: 200px;
+  }
+input:in-range {
+  background-color: rgb(167, 230, 172);
+}
+input:out-of-range {
+  background-color: pink;
+}
+input:read-only {
+  border: 2px dotted rgb(248, 64, 95);  
+  background-color: rgb(167, 230, 172);
+  color: rgb(248, 64, 95);
+}
+select {
+  width: 100px;
+}
+option{
+  background-color: pink;
+}
+option:checked {
+  background-color: rgb(167, 230, 172);
+}
+button {
+  width: 200px;
+}
+button:enabled {
+  background-color: rgb(167, 230, 172);
+}
+button:disabled {
+  background-color: pink;
+}
+textarea {
+  background-color: rgb(167, 230, 172);
+  font-family: 'Arial', 'sans-serif';
+}
+input:placeholder-shown {
+  background-color: pink;
+}
+#logo {
+  width: 100px;
+}
+nav{
+  border: 2px solid black;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
